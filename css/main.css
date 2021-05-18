@@ -21,7 +21,7 @@ body {
   background-image: url("../assets/img/pexels-frank-cone-3214110.jpg");
   background-size: cover;
   background-position: center;
-  opacity: 0.9;
+  /* opacity: 0.9; */
 }
 .hero-container-2 {
   width: 100%;
@@ -128,7 +128,9 @@ main {
   color: #1f2833;
 }
 
-.blogs-main {
+.blogs-main,
+.blog-main,
+.profile-main {
   display: grid;
   margin-top: 40px;
 }
@@ -151,6 +153,11 @@ main {
 
 .blogs-news-img-container img {
   width: 85%;
+  border-radius: 2px;
+}
+.profile-picture img {
+  border-radius: 50%;
+  max-width: 30%;
 }
 
 .blogs-news-info-container {
@@ -226,6 +233,97 @@ footer p {
   padding-top: 15px;
 }
 
+/*Blog detailing*/
+.main-background {
+  background-color: #dbf3ff;
+  max-width: 980px;
+  border-radius: 8px;
+}
+
+.blogpost-main-container {
+}
+
+.blogpost-img-container {
+  padding: 50px 50px 40px;
+  background-color: hsl(213deg 38% 21%);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.blogpost-img-container img {
+  width: 100%;
+  border-radius-top: 5px;
+}
+
+.blogpost-main-container {
+  padding: 0 50px 40px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.blogpost-main-container h3 {
+  border-bottom: 1px solid #a7defa;
+  padding-bottom: 20px;
+}
+.blogpost-main-container article h1 {
+  font-size: 35px;
+}
+.contact-main-container {
+  width: 100%;
+  min-height: 150px;
+  background-color: hsl(200, 89%, 72%);
+  text-align: center;
+  padding-bottom: 50px;
+}
+.contact-main-container div {
+  display: inline-block;
+  width: 49.5%;
+  height: 100%;
+}
+.contact-main-container div a {
+  color: #1f2833;
+  border-bottom: 1px solid #1f2833;
+  padding-bottom: 5px;
+}
+
+.contact-main-container .contact-left,
+.contact-right {
+  text-align: initial;
+  margin-top: 85px;
+}
+.contact-main-container img {
+  width: 100px;
+}
+/*Profile-part*/
+.profile-main-container {
+  padding: 70px 40px;
+  margin-bottom: 50px;
+  background-color: hsl(213deg 38% 21%);
+  color: #a7defa;
+}
+.profile-main-container img {
+  width: 260px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.profile-main-container .profile-container {
+  display: flex;
+}
+.profile-main-projects {
+  padding: 0 50px 40px;
+}
+.profile-main-projects h3 {
+  border-bottom: 1px solid #1f2833;
+  padding-bottom: 35px;
+  text-align: center;
+}
+.proyects-main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.proyects-container {
+  padding: 0 5px;
+}
 /*
 #0B0C10 BLACK
 #1F2833 SEMIBLACK
@@ -234,4 +332,4 @@ footer p {
 #45A29E BLUE
 #a7defa white blue from tags
 nav blue #083e5a
-*/
+*/ ;
