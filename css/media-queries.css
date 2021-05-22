@@ -112,9 +112,10 @@
   .profile-image-container {
     display: flex;
     justify-content: center;
+    max-width: 120px;
   }
   .profile-main-container img {
-    width: 120px;
+    width: 100%;
     margin-right: 0;
     border-radius: 50%;
   }
