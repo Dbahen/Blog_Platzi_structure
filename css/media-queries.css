@@ -119,6 +119,7 @@
   }
   .profile-main-container img {
     width: 100%;
+    heigth: auto;
     margin-right: 0;
     border-radius: 50%;
   }
