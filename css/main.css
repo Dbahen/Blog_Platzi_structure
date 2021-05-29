@@ -307,6 +307,10 @@ footer p {
   margin-right: 30px;
   border-radius: 50%;
 }
+.profile-image-container img {
+  max-inline-size: 100%;
+  height: auto;
+}
 .profile-main-container .profile-container {
   display: flex;
 }
