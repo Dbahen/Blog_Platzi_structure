@@ -147,7 +147,7 @@
   }
   .profile-main-container img {
     width: 50%;
-    height: auto;
+    height: 50%;
   }
   .profile-description {
     display: flex;
