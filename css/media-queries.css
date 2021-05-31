@@ -146,8 +146,8 @@
     text-align: center;
   }
   .profile-main-container img {
-    width: 50%;
-    height: 50%;
+    width: 260px;
+    height: 260px;
   }
   .profile-description {
     display: flex;
