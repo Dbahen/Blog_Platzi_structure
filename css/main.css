@@ -334,9 +334,14 @@ footer p {
 .proyects-main-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 18px;
 }
 .proyects-container {
   padding: 0 5px;
+}
+.proyects-main-container a {
+  color: #192b41;
+  font-size: 18px;
 }
 /*
 #0B0C10 BLACK
